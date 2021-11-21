@@ -1,0 +1,31 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.form-container input{
+    border: 1px solid gray;
+    width: 250px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.form-container button{
+    height: 40px;
+    width: 60px;
+    border: 0;
+    background: #071330;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: 0.2s;
+}
+
+.form-container button:hover{
+    opacity: 0.8;
+}
+
