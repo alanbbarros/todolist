@@ -5,3 +5,29 @@
     padding-top: 30px;
 }
 
+.btn-wrapper{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.btn{
+    border: 0;
+    background: #071330;
+    color:white;
+    border-radius: 4px;
+    height: 30px;
+    width: 90px;
+    cursor: pointer;
+    transition: 0.1s ease-in-out ; 
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+
+.contador{
+    margin-top: 15px;
+}

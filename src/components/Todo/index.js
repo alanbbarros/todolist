@@ -25,7 +25,7 @@ const Todo = ({todo, id}) => {
     }
 
     return (
-        <div className={`todo ${todo.completed ? 'completed' : ''}`}  >
+        <div key={id} className={`todo ${todo.completed ? 'completed' : ''}`}  >
             <p > {todo.text} </p>
 
             <div className='btns' >

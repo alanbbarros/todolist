@@ -8,7 +8,12 @@ const Form = () => {
 
     function addTodo(e){
         e.preventDefault();
-        setTodoList([...todoList, {text: todo, completed: false, id: Math.random() * 100}])
+        if(todo !== ''){
+            setTodoList([...todoList, {text: todo, completed: false, id: Math.random() * 100}])
+        }
+        else{
+            alert('Escreva algo')
+        }
         setTodo('')
     }
 
